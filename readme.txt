@@ -17,6 +17,3 @@ keras==2.3.1
 tensorflow==2.2.0
 opencv-python==4.2.0.34
 numpy==1.18.4
-selenium==3.141.0
-chromedriver-binary==83.0.4103.39.0
-requests==2.23.0
