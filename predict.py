@@ -16,7 +16,7 @@ def predict(characters, image_path, model_name = "9-nine-.h5", target_size = (15
 
     for x,y,w,h in faces:
         face_image = original_img[y:y+h, x:x+w]
-        #cv2.imwrite("face.png",face_image)
+        cv2.imwrite("face.png",face_image)
         time.sleep(0.5)
         img = image.load_img("face.png", target_size=target_size)
         img_tensor = image.img_to_array(img)
