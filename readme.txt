@@ -8,9 +8,10 @@
 ６、テスト画像を用意して、predict.pyを実行すると分類の結果が表示されます。
 
 
-学習のところはgoogle colablatoryで実行するとうまくいきました。
+学習と予測のところはgoogle colablatoryで実行するとうまくいきました。
 
-
+手元の環境
+(モデルのロードができなかったのでkerasとtensorflowは別のバージョンのを使うといいかも)
 windows10, python3.6.3
 
 keras==2.3.1
